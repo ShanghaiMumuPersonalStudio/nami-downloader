@@ -1,33 +1,20 @@
-# 📦 SCRT（系统清理和诊断工具）  
-## 🚀 自制实用批处理程序（单文件版）  
+# 📦 纳米下载器
+## 🚀 快速的多线程下载器（单文件版）  
 
-<div align="center">  
-  <img src="icon.ico" alt="SCRT图标" width="80" height="80">  
-</div>  
-
-[![Forks](https://img.shields.io/github/forks/ShanghaiMumuPersonalStudio/SCRT.svg?style=for-the-badge)](https://github.com/ShanghaiMumuPersonalStudio/SCRT/network/members)
-[![Stargazers](https://img.shields.io/github/stars/ShanghaiMumuPersonalStudio/SCRT.svg?style=for-the-badge)](https://github.com/ShanghaiMumuPersonalStudio/SCRT/stargazers)
-[![Issues](https://img.shields.io/github/issues/ShanghaiMumuPersonalStudio/SCRT.svg?style=for-the-badge)](https://github.com/ShanghaiMumuPersonalStudio/SCRT/issues)
-[![Release](https://img.shields.io/github/v/release/ShanghaiMumuPersonalStudio/SCRT?style=for-the-badge)](https://github.com/ShanghaiMumuPersonalStudio/SCRT/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/ShanghaiMumuPersonalStudio/SCRT/total?style=for-the-badge)](https://github.com/ShanghaiMumuPersonalStudio/SCRT/releases/latest)
-[![License](https://img.shields.io/github/license/ShanghaiMumuPersonalStudio/SCRT?style=for-the-badge&color=9370db)](https://github.com/ShanghaiMumuPersonalStudio/SCRT/blob/main/LICENSE)  
+[![Forks](https://img.shields.io/github/forks/ShanghaiMumuPersonalStudio/nami-downloader.svg?style=for-the-badge)](https://github.com/ShanghaiMumuPersonalStudio/nami-downloader/network/members)
+[![Stargazers](https://img.shields.io/github/stars/ShanghaiMumuPersonalStudio/nami-downloader.svg?style=for-the-badge)](https://github.com/ShanghaiMumuPersonalStudio/nami-downloader/stargazers)
+[![Issues](https://img.shields.io/github/issues/ShanghaiMumuPersonalStudio/nami-downloader.svg?style=for-the-badge)](https://github.com/ShanghaiMumuPersonalStudio/nami-downloader/issues)
+[![Release](https://img.shields.io/github/v/release/ShanghaiMumuPersonalStudio/nami-downloader?style=for-the-badge)](https://github.com/ShanghaiMumuPersonalStudio/nami-downloader/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/ShanghaiMumuPersonalStudio/nami-downloader/total?style=for-the-badge)](https://github.com/ShanghaiMumuPersonalStudio/nami-downloader/releases/latest)
+[![License](https://img.shields.io/github/license/ShanghaiMumuPersonalStudio/nami-downloader?style=for-the-badge&color=9370db)](https://github.com/ShanghaiMumuPersonalStudio/nami-downloader/blob/main/LICENSE)  
 
 
 ---  
 
 ### 🌟 软件核心能力  
-- **自由选择安装目录**：**(8.5.2.0新增)** 可以将SCRT的文件保存目录更改到其它可用的文件夹中
-- **无人值守**：**(8.5.0.0新增)** 配合自动模式和自启动来全自动运行，不需要人工操作  
-- **网络检测**：快速诊断网络连通性，排查网络故障  
-- **系统清理**：安全删除系统临时文件，释放磁盘空间（**无残留、不破坏系统**）  
-- **修复工具**：通过 `sfc`/`dism` 深度修复系统文件，解决系统报错  
-- **病毒查杀**：调用 `mrt` 清理顽固病毒，守护系统安全  
-
-
-### 🔗 运行条件  
-✅ **系统要求**：Windows 10 及以上（Windows 8 理论兼容，未完整测试）  
-❌ **其他系统**：仅支持 Windows，Linux/macOS 暂无法使用  
-
+- **多线程下载**：利用多线程下载速度**超级快**
+- **浏览器拓展**：在浏览器启用开发人员模式，并加载程序目录下的生成的拓展目录，即可全自动托管所有下载
+- **多协议支持**：支持http、ftp等主流协议及其基于ssl或ssh的其它协议  
 
 ### 📝 开源与免责  
 - **协议**：采用 **GNU GPLv3开源协议**  
